@@ -9,17 +9,17 @@ export default class Slide extends React.Component{
 				thumbnail: 'img/1.jpg',
 			},
 			{
-				original: '',
-				thumbnail: ''
+				original: 'img/2.jpg',
+				thumbnail: 'img/2.jpg'
 			},
 			{
-				original: '',
-				thumbnail: ''
+				original: 'img/3.jpg',
+				thumbnail: 'img/3.jpg'
 			}
 	    ]
 
 	    return (
-	    	<ImageGallery items={images} />
+	    	<ImageGallery items={images} autoPlay={true} />
 	    );
 	}
 }

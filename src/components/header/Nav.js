@@ -6,7 +6,7 @@ export default class Nav extends React.Component{
 		return (
 			<div className="nav">
 				<AnchorLink href='#home'>Home</AnchorLink>
-    			<AnchorLink href='#fotos'>Fotos</AnchorLink>
+    			<AnchorLink href='#fotos'>Mapa</AnchorLink>
     			<AnchorLink href='#information'>Informações</AnchorLink>
     			<AnchorLink href='#contact'>Contato</AnchorLink>
 			</div>
